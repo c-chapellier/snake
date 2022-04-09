@@ -1,0 +1,11 @@
+cradle:
+  cabal:
+    - path: "./"
+      component: "lib:snake"
+
+    - path: "./app/"
+      component: "exe:snake"
+
+    - path: "./test/"
+      component: "test:snake-test"
+    
